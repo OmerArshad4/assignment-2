@@ -1,0 +1,108 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url(images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+.header{
+    background-color: rgb(39, 32, 23);
+    text-align: center;
+    position:relative;
+    width: 104%;
+}
+.header ul{
+    padding: 10px;
+     display: inline-flex;
+    justify-content: space-around;
+
+}
+.header ul li{
+    padding: 10px;
+    margin: 12px;
+    display: inline-flex;
+    text-align: center;
+    background-color:rgb(179, 12, 12);
+    color:red;
+    border-radius: 3px;
+    
+}
+.header ul li a{
+    text-decoration: none;
+    color:seashell;
+}
+.header ul li a:hover{
+    background-color: hotpink;
+}
+.wel{
+    display: inline-block;
+    width: 300px;
+    padding: 20px;
+    margin-left: 500px;
+    margin-top: 1px;
+}
+.wel input{
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color:#fff;
+    border-color: red;
+    width: 100%;
+}
+.wel,.wel1{
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.wel h3{
+    color: rgb(117, 0, 0);
+    font-size: 20px;
+    text-shadow: 2px 2px 5px darkred;
+}
+
+.row{
+    width: 99.5%;
+    height: 100vh;
+    background-color: darkred;
+    display: flex;
+    padding: 30px;
+}
+.card img{
+    width:200px;
+    height:300px;
+}
+.column{
+    padding: 20px;
+    margin: 80px;
+    border: 2px sienna;
+}
+.btn{
+    background-color: rgba(236, 236, 233, 0.829);
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.price{
+    color: thistle;
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.para1{
+    color: violet;
+    margin-left: 20px;
+}
+.btn:hover{
+    background-color: cyan;
+    cursor: pointer;
+}
